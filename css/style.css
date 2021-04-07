@@ -1,15 +1,18 @@
+@import url(https://fonts.googleapis.com/css?family=Mulish:300,regular,500,700);
+
 html > * {
   box-sizing: border-box;
 }
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Mulish, Arial, Helvetica, sans-serif;
 }
 
 header {
   display: flex;
   align-items: center;
   padding: 20px 70px 20px 32px;
+  margin-bottom: 30px;
 }
 
 .menu-btn {
@@ -45,7 +48,7 @@ header {
 }
 
 .search-field {
-  width: 90%;
+  width: 100%;
   padding: 12px 0 12px 23px;
   background-color: transparent;
   border-radius: 22px;
@@ -89,4 +92,54 @@ header {
 
 .user-avatar {
   border-radius: 50%;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+/* ---------------nav list-------------------- */
+
+nav {
+  padding-left: 32px;
+}
+
+.nav-list li {
+  margin-bottom: 28px;
+  display: flex;
+  align-items: center;
+}
+
+nav .icon {
+  fill: #898989;
+  padding-right: 14px;
+}
+.nav-list a {
+  text-decoration: none;
+  color: #898989;
+}
+
+.nav-list-extra {
+  margin-bottom: 50px;
+}
+
+.nav-list-subs .setting {
+  margin-top: auto;
+}
+
+.nav-list-subs h3 {
+  margin: 0;
+  padding: 0;
+}
+
+.nav-list-subs .subs-img {
+  border-radius: 50%;
+  padding-right: 14px;
+}
+
+.setting {
+  padding-top: 104px;
 }
